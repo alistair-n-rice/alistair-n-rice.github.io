@@ -1,0 +1,127 @@
+body {
+    padding-top: 5rem;
+}
+
+p,
+ul,
+main a,
+div,
+h3 {
+    font-family: "Saira", sans-serif;
+}
+
+
+h1,
+h2,
+h1 p,
+h2 p,
+a,
+a div {
+    font-family: "Bitcount Single", sans-serif;
+}
+
+
+.center-navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* The various panels on "Bio and Education" */
+
+.white_card {
+    border: 2px solid black;
+    color: black;
+    box-shadow: 10px 0px 5px black
+}
+
+.gray_card {
+
+    background: gray;
+    border: 2px solid gray;
+    color: white;
+    box-shadow: 10px 0px 5px black;
+}
+
+.white_card:hover,
+.gray_card:hover {
+    box-shadow: 10px 3px 5px blue;
+}
+
+
+/* Panels on "Experience" */
+
+.experiences-white-card {
+
+    border: 2px solid black;
+    color: black;
+    box-shadow: 10px 0px 5px black;
+}
+
+.experiences-gray-card {
+    background: gray;
+    border: 2px solid gray;
+    color: white;
+    box-shadow: 10px 0px 5px black;
+
+}
+
+.experiences-white-card:hover,
+.experiences-gray-card:hover {
+    box-shadow: 10px 3px 5px red;
+}
+
+
+
+.skills-white-card {
+
+    border: 2px solid black;
+    color: black;
+    box-shadow: 10px 0px 5px black;
+}
+
+.skills-gray-card {
+    background: gray;
+    border: 2px solid gray;
+    color: white;
+    box-shadow: 10px 0px 5px black;
+
+}
+
+.skills-white-card:hover,
+.skills-gray-card:hover {
+    box-shadow: 10px 3px 5px purple;
+}
+
+
+/*Setting font of "Contact" page form.*/
+
+form {
+
+    border-radius: 1px;
+    box-shadow: 50px 50px 50px black;
+}
+
+
+
+/*Setting navbar hover colors*/
+
+.blue:hover {
+    color: blue;
+    background: lightgray;
+}
+
+.red:hover {
+    color: red;
+    background: lightgray;
+}
+
+.purple:hover {
+    color: purple;
+    background: lightgray;
+}
+
+.neutral:hover {
+    background: lightgray;
+}
