@@ -145,6 +145,11 @@ form {
     background: lightgray;
 }
 
+.green:hover {
+    color: rgb(55, 184, 4);
+    background: lightgray;
+}
+
 .neutral:hover {
     background: lightgray;
 }
