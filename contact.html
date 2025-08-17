@@ -62,72 +62,84 @@
 
 
         <!--FORM-->
-        <form class="needs-validation">
+        <form class="needs-validation container contact-form-shadow">
 
             <!--NAME-->
-            <div class="row col-sm-4">
-                <label for="first_name" class="form-label">* Name:</label>
-                <input type="text" class="form-control" id="first_name" name="first_name"
-                    placeholder="first and last..." required>
+            <div class="row justify-content-center">
+                <div class="col-9">
+                    <label for=" first_name" class="form-label">* Name:</label>
+                    <input type="text" class="form-control text-bg-secondary contact-field-shadow" id="first_name"
+                        name="first_name" placeholder="write..." required>
+                </div>
             </div>
 
+
             <!--ROLE-->
-            <div class="row">
+            <br>
+            <div class="row justify-content-center">
+                <p class="col-sm-9">
+                    * Role
+                    <br>
+                    <input type="radio" class="form-check-input text-bg-secondary" id="role1" name="user_role">
+                    <label for="role1" class="form-label contact-field-shadow"> Student</label>
+                    <br>
+                    <input type="radio" class="form-check-input text-bg-secondary" id="role2" name="user_role">
+                    <label for="role2" class="form-label contact-field-shadow">Faculty</label>
+                    <br>
+                    <input type="radio" class="form-check-input text-bg-secondary" id="role3" name="user_role">
+                    <label for="role3" class="form-label contact-field-shadow">Other</label>
 
-                <p> <br>Role<br>
-                    <label for="role1" class="form-label">Student</label>
-                    <input type="radio" class="form-check-input" id="role1" name="user_role">
-
-                    <label for="role2" class="form-label">Faculty</label>
-                    <input type="radio" class="form-check-input" id="role2" name="user_role">
-
-                    <label for="role3" class="form-label">Other</label>
-                    <input type="radio" class="form-check-input" id="role3" name="user_role">
                 </p>
             </div>
 
 
             <!--EMAIL-->
-            <div class="row">
-                <p class="col-sm-4">
+            <div class="row justify-content-center">
+                <p class="col-sm-9">
                     <label for="email" class="form-label">* Email</label>
-                    <input type="email" id="email" name="user_email" class="form-control" placeholder="write..."
-                        required>
+                    <input type="email" id="email" name="user_email"
+                        class="form-control text-bg-secondary contact-field-shadow" placeholder="write..." required>
                 </p>
             </div>
 
 
             <!--PHONE #-->
-            <div class="row">
-                <p class="col-sm-4">
+            <div class="row justify-content-center">
+                <p class="col-sm-9">
                     <label for="phone" class="form-label">Phone #</label>
-                    <input type="tel" id="phone" name="user_phone" class="form-control" placeholder="write...">
+                    <input type="tel" id="phone" name="user_phone"
+                        class="form-control text-bg-secondary contact-field-shadow" placeholder="write... (optional)">
                 </p>
             </div>
 
             <!--SUBJECT-->
-            <div class="row">
-                <p class="col-sm-4">
+            <div class="row justify-content-center">
+                <p class="col-sm-9">
                     <label for="subject" class="form-label">* Subject:</label>
-                    <input type="text" id="subject" class="form-control" name="first_name" placeholder="write..."
-                        required>
+                    <input type="text" id="subject" class="form-control text-bg-secondary contact-field-shadow"
+                        name="first_name" placeholder="write..." required>
                 </p>
             </div>
 
             <!--MESSAGE-->
-            <div class="row">
-                <p class="col-sm-4">
+            <div class="row justify-content-center">
+                <p class="col-sm-9">
                     <label for="message" class="form-label">* Message:</label>
-                    <textarea class="form-control" id="message" name="user_message" required></textarea>
+                    <textarea class="form-control text-bg-secondary contact-field-shadow" id="message"
+                        name="user_message" placeholder="write..." required></textarea>
                 </p>
             </div>
 
             <!--SUBMIT BUTTON-->
             <!--DOES NOT SUBMIT--NOT WORKING-->
-            <p>
-                <button type="submit" class="btn btn-success">Submit</button>
+            <div class="row">
+                <p class="col-2 mx-auto">
+                    <button type="submit" class="btn btn-success contact-field-shadow">Submit</button>
+                </p>
+            </div>
+            <p class="text-center">
+                Does not work, just FYI.
             </p>
-            Does not work, just FYI.
             <br>
             <br>
         </form>

@@ -21,6 +21,9 @@ a div {
 }
 
 
+
+
+
 .center-navbar {
     display: flex;
     justify-content: space-around;
@@ -103,15 +106,27 @@ input {
 }
 
 
-/*Setting font of "Contact" page form.*/
+
+/*Contact form:*/
+
+.contact-form-shadow:hover {
+    box-shadow: 50px 50px 50px green;
+}
+
+.contact-field-shadow:hover {
+    box-shadow: 10px 3px 5px green;
+}
 
 form {
 
     border-radius: 1px;
     box-shadow: 50px 50px 50px black;
+    width: 50% !important;
 }
 
-
+::placeholder {
+    color: white !important;
+}
 
 /*Setting navbar hover colors*/
 
