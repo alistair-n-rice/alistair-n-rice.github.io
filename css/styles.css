@@ -28,6 +28,14 @@ a div {
 
 
 
+/* NOT WORKING */
+input {
+    border: 5px solid black;
+}
+
+
+
+
 /* The various panels on "Bio and Education" */
 
 .white_card {

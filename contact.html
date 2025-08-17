@@ -61,84 +61,72 @@
         <h2 style="text-align: center; font-family: 'Saira', sans-serif;"><u>Contact me!</u></h2>
 
 
+        <!--FORM-->
+        <form class="needs-validation">
 
+            <!--NAME-->
+            <div class="row col-sm-4">
+                <label for="first_name" class="form-label">* Name:</label>
+                <input type="text" class="form-control" id="first_name" name="first_name"
+                    placeholder="first and last..." required>
+            </div>
 
-        <!--Start of form, made with Bootstrap.-->
-
-        <form class="form-floating was-validated">
+            <!--ROLE-->
             <div class="row">
-                <p class="col-sm-5">
-                    <label for="first_name">First name:</label>
-                    <input type="text" class="form-control" id="first_name" name="first_name" placeholder="write..."
-                        required>
-                </p>
-                <p class="col-sm-5">
-                    <label for="last_name">Last name:</label>
-                    <input type="text" class="form-control" id="last_name" name="last_name" placeholder="write..."
-                        required>
+
+                <p> <br>Role<br>
+                    <label for="role1" class="form-label">Student</label>
+                    <input type="radio" class="form-check-input" id="role1" name="user_role">
+
+                    <label for="role2" class="form-label">Faculty</label>
+                    <input type="radio" class="form-check-input" id="role2" name="user_role">
+
+                    <label for="role3" class="form-label">Other</label>
+                    <input type="radio" class="form-check-input" id="role3" name="user_role">
                 </p>
             </div>
-            <div>
-                <p>Role<br>
-                    <label for="role1">Student</label>
-                    <input type="radio" class="form-check-input" id="role1" name="user_role" required>
 
-                    <label for="role2">Faculty</label>
-                    <input type="radio" class="form-check-input" id="role2" name="user_role" required>
 
-                    <label for="role3">Other</label>
-                    <input type="radio" class="form-check-input" id="role3" name="user_role" required>
-                </p>
-            </div>
+            <!--EMAIL-->
             <div class="row">
                 <p class="col-sm-4">
-                    <label for="message_type">Type of inquiry</label>
-                    <select class="form-select" name="user_message_type" id="message_type" required>
-                        <option value="">Choose an option</option>
-                        <option value="general">General Inquiry</option>
-                        <option value="job_offer">Job Offers</option>
-                        <option value="employment">Employment Opportunites</option>
-                        <option value="other">Other</option>
-                    </select>
-                </p>
-            </div>
-            >
-            <div class="row">
-                <p class="col-sm-4">
-                    <label for="email">Email</label>
+                    <label for="email" class="form-label">* Email</label>
                     <input type="email" id="email" name="user_email" class="form-control" placeholder="write..."
                         required>
-
-                    <label for="email_type1">Home</label>
-                    <input type="checkbox" id="email_type1" class="form-check-input" name="email_type">
-
-                    <label for="email_type2">Work</label>
-                    <input type="checkbox" id="email_type2" class="form-check-input" name="email_type">
                 </p>
             </div>
 
 
+            <!--PHONE #-->
             <div class="row">
                 <p class="col-sm-4">
-                    <label for="phone">Phone #</label>
-                    <input type="tel" id="phone" name="user_phone" class="form-control" placeholder="write..." required>
-
-                    <label for="phone_type1">Home</label>
-                    <input type="checkbox" id="phone_type1" class="form-check-input" name="phone_type">
-
-                    <label for="email_type2">Work</label>
-                    <input type="checkbox" id="phone_type2" class="form-check-input" name="phone_type">
+                    <label for="phone" class="form-label">Phone #</label>
+                    <input type="tel" id="phone" name="user_phone" class="form-control" placeholder="write...">
                 </p>
             </div>
+
+            <!--SUBJECT-->
             <div class="row">
                 <p class="col-sm-4">
-                    <label for="message">Message:</label>
+                    <label for="subject" class="form-label">* Subject:</label>
+                    <input type="text" id="subject" class="form-control" name="first_name" placeholder="write..."
+                        required>
+                </p>
+            </div>
+
+            <!--MESSAGE-->
+            <div class="row">
+                <p class="col-sm-4">
+                    <label for="message" class="form-label">* Message:</label>
                     <textarea class="form-control" id="message" name="user_message" required></textarea>
                 </p>
             </div>
+
+            <!--SUBMIT BUTTON-->
             <p>
-                <input type="submit" value="Submit!">
+                <button type="submit" class="btn btn-success">Submit</button>
             </p>
+            <br>
         </form>
     </main>
 </body>
